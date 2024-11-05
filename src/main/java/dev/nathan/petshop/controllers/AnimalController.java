@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/animais")
-@CrossOrigin(origins = "*")
+@RequestMapping("/api/animais/")
 public class AnimalController {
 
     private final AnimalService animalService;
